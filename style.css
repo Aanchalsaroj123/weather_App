@@ -71,6 +71,7 @@ body {
   height: auto;
   background-color: rgb(224, 223, 223);
   /* border-radius: 100px; */
+   margin-left: -20px;
 }
 
 .third #rowss {
@@ -156,7 +157,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:600px) {
   body {
     background-image: url("largesunny2.webp");
     background-repeat: no-repeat;
@@ -187,7 +188,7 @@ body {
     width: auto;
     height: auto;
     background-color: rgb(224, 223, 223);
-    padding-left: 150px;
+    padding-left: 300px;
   }
   .row1 .wind_cont{
     display: flex;
