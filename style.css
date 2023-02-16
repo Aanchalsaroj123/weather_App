@@ -1,0 +1,230 @@
+body {
+  background-image: url("sunny.jpg");
+  background-repeat: no-repeat;
+
+}
+
+.top-heading {
+  width: 90px;
+}
+
+.second_cont {
+  width: auto;
+  padding-top: 0;
+  display: inline-block;
+}
+
+.second_cont div {
+  display: inline-block;
+}
+
+.cit_cont {
+  padding-top: 5rem;
+  margin-left: 2rem;
+}
+
+.time {
+  /* background-color: red; */
+  padding-left: 2rem;
+  /* padding-right: 8.5rem; */
+}
+
+.temp {
+  /* background-color: white; */
+  margin-left: 8rem;
+  margin-top: -90px;
+  /* padding-left: 10rem;
+    padding-right: 4rem; */
+  float: right;
+}
+
+.temp_size {
+  font-size: 100px;
+}
+
+/* .degree{
+    content: "\00B0";
+    width: 50px;
+  }
+  .degree_cont{
+    background-color: palevioletred;
+    float: right;
+  } */
+.line_C {
+  margin: 210px auto 20px auto;
+  padding-left: 15rem;
+}
+
+.hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 20%;
+  border-color: rgb(10, 10, 10);
+
+  /* margin: 250px auto 70px auto; */
+}
+
+.third {
+  padding-top: 40px;
+  width: auto;
+  height: auto;
+  background-color: rgb(224, 223, 223);
+  /* border-radius: 100px; */
+}
+
+.third #rowss {
+  display: inline-block;
+  margin-left: 1rem;
+  padding-left: 10px;
+}
+
+
+
+.feel_cont {
+  /* background-color: rgb(141, 110, 243); */
+  padding: 20px 20px 20px 30px;
+}
+
+.feel1 {
+
+  float: right;
+  /* background-color: blueviolet; */
+  
+}
+
+
+.wind_cont {
+  /* background-color: rgb(141, 110, 243); */
+  padding: 20px 20px 20px 30px;
+}
+
+.wind1 {
+  margin-left: 10px;
+  float: right;
+}
+
+.min_cont {
+  /* background-color: rgb(141, 110, 243); */
+  padding: 20px 20px 20px 30px;
+}
+
+.min1 {
+  margin-left: 10px;
+  float: right;
+}
+
+.max_cont {
+  /* background-color: rgb(141, 110, 243); */
+  padding: 20px 20px 20px 30px;
+}
+
+.max1 {
+  margin-left: 10px;
+  float: right;
+}
+
+.val_display{
+  font-size: 20px;
+  font-weight:bold;
+}
+.font_disp{
+  font-size: 15px;
+  color: rgb(142, 139, 139);
+}
+.bottom{
+  margin-bottom: 0;
+}
+
+
+
+
+.row3 .wind_cont{
+  display: none;
+}
+.row3 .feel_cont{
+  display: none;
+}
+.row4 .wind_cont{
+  display: none;
+}
+.row4 .feel_cont{
+  display: none;
+}
+
+.no2line .hr1{
+  display: none;
+}
+
+@media screen and (min-width:800px) {
+  body {
+    background-image: url("largesunny2.webp");
+    background-repeat: no-repeat;
+    width: auto;
+     /* background-position: center; */
+  }
+  .temp {
+   
+    margin-left: 900px;
+    margin-top: -90px;
+    float: right;
+  }
+  .cit_cont {
+    padding-top: 5rem;
+    margin-left: 100px;
+  }
+ .city_size{
+  font-size: 50px;
+ }
+  .time {
+    /* background-color: red; */
+    padding-left: 100px;
+    /* padding-right: 8.5rem; */
+  }
+  .third {
+    margin-top: 60px;
+    padding-top: 40px;
+    width: auto;
+    height: auto;
+    background-color: rgb(224, 223, 223);
+    padding-left: 150px;
+  }
+  .row1 .wind_cont{
+    display: flex;
+  }
+  .row1 .feel_cont{
+    display: flex;
+  }
+  .row2 .min_cont{
+    display: flex;
+  }
+  .row2 .max_cont{
+    display: flex;
+  }
+  .row3 .wind_cont{
+    display: flex;
+  }
+  .row3 .feel_cont{
+    display: flex;
+  }
+  .row4 .wind_cont{
+    display: flex;
+  }
+  .row4 .feel_cont{
+    display: flex;
+  }
+  .line_C .hr{
+    display: none;
+  }
+  
+  .no2line .hr1{
+    display: flex;
+    border-style: none;
+    border-top-style:dotted ;
+    border-width: 6px;
+    width: 6%;
+    border-color: rgb(4, 4, 4);
+    margin: 70px auto 0 auto;
+}
+  
+}
